@@ -33,7 +33,6 @@ router.get('/services', (req, res, next) => {
    });
 });
 
-
 /* GET contact page. */
 router.get('/contact', (req, res, next) => {
   res.render('index', {

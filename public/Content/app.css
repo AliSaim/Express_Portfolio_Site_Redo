@@ -1,1 +1,4 @@
 /* Custom CSS goes here */
+img { 
+    display: inline-block;
+}
