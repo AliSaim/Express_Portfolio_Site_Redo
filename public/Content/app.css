@@ -1,4 +1,53 @@
 /* Custom CSS goes here */
-img { 
-    display: inline-block;
+body {
+background:
+
+	repeating-linear-gradient(
+		90deg,
+		#F9CB8F 1em,
+		#3CBAC8 40em
+	),
+	repeating-linear-gradient(
+		45deg,
+		transparent 0,
+		transparent 10em,
+		#F19181 40em
+	);
+
+background-blend-mode: multiply;   
 }
+h1 {
+    color: blue;
+}
+p {
+    color: green;
+}
+
+.navbar-header{
+background:black; /* fallback for old browsers */
+   
+}
+
+.container-fluid{
+padding: 40px;
+     background:
+
+	repeating-linear-gradient(
+		90deg,
+		#F9CB8F 1em,
+		#3CBAC8 30em
+	),
+	repeating-linear-gradient(
+		45deg,
+		transparent 0,
+		transparent 10em,
+		#F19181 40em
+	);
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+

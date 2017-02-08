@@ -14,14 +14,14 @@ router.get('/', (req, res, next) => {
 
 /* GET about page. */
 router.get('/about', (req, res, next) => {
-  res.render('index', {
+  res.render('content/about', {
     title: 'About'
    });
 });
 
 /* GET projects page. */
 router.get('/projects', (req, res, next) => {
-  res.render('index', {
+  res.render('content/projects', {
     title: 'Projects'
    });
 });
