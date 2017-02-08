@@ -28,14 +28,14 @@ router.get('/projects', (req, res, next) => {
 
 /* GET services page. */
 router.get('/services', (req, res, next) => {
-  res.render('index', {
+  res.render('content/services', {
     title: 'Services'
    });
 });
 
 /* GET contact page. */
 router.get('/contact', (req, res, next) => {
-  res.render('index', {
+  res.render('content/contact', {
     title: 'Contact'
    });
 });
