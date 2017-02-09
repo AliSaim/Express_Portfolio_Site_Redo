@@ -1,21 +1,22 @@
 /* Custom CSS goes here */
 body {
-background:
-
-	repeating-linear-gradient(
-		90deg,
-		#F9CB8F 1em,
-		#3CBAC8 40em
-	),
+    background:
 	repeating-linear-gradient(
 		45deg,
+		#F9CB8F 1em,
+		#3CBAC8 45em
+	),
+	repeating-linear-gradient(
+		90deg,
 		transparent 0,
-		transparent 10em,
-		#F19181 40em
+		transparent 0em,
+		#F19181 45em
 	);
 
-background-blend-mode: multiply;   
+background-blend-mode: multiply;
 }
+
+
 h1 {
     color: blue;
 }
@@ -23,31 +24,66 @@ p {
     color: green;
 }
 
-.navbar-header{
-background:black; /* fallback for old browsers */
-   
-}
 
 .container-fluid{
-padding: 40px;
+    padding: 40px;
      background:
 
 	repeating-linear-gradient(
-		90deg,
+		45deg,
 		#F9CB8F 1em,
 		#3CBAC8 30em
 	),
 	repeating-linear-gradient(
-		45deg,
+		90deg,
 		transparent 0,
 		transparent 10em,
 		#F19181 40em
 	);
 }
 
+
+
+div.container{
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    background: 
+            repeating-linear-gradient(
+                45deg,
+                #F9CB8F 1em,
+                #3CBAC8 30em
+            ),
+            repeating-linear-gradient(
+                90deg,
+                transparent 0,
+                transparent 10em,
+                #F19181 40em
+            );
+}
+
+.footerOfPage
+{
+    padding: 40px;
+    background: 
+            repeating-linear-gradient(
+                45deg,
+                #F9CB8F 6em,
+                #3CBAC8 20em
+            ),
+            repeating-linear-gradient(
+                90deg,
+                transparent 0,
+                transparent 10em,
+                #F19181 12em
+            );
+}
+
+
 img{
     display: block;
-    margin: auto;
     width: 40%;
+    margin: auto;
 }
+
 
