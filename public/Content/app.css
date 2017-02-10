@@ -101,3 +101,9 @@ img {
     display: block;
 }
 
+
+/* This is use to align the skills to the left in the list */
+.skills{
+    text-align: left;
+}
+
