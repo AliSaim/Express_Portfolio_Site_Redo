@@ -63,8 +63,7 @@ div.container{
 }
 
 .footerOfPage
-{
-    padding: 40px;
+{   margin-top: 20px;
     background: 
             repeating-linear-gradient(
                 45deg,
@@ -79,11 +78,26 @@ div.container{
             );
 }
 
-
-img{
+img {
     display: block;
     width: 40%;
     margin: auto;
 }
 
+.picture
+{
+    width: 100%;
+}
+
+.center { 
+    height: 400px;
+    width: 800px;
+    position: relative;
+    border: 3px solid green;
+    align-content: center; 
+}
+
+.project{
+    display: block;
+}
 
