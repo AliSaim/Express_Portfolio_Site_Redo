@@ -63,12 +63,29 @@
                     <div class="col-xs-9 col-md-4"> 
                     Socail Media:
                     <br>
+
+
                     
-                    <a href="https://www.facebook.com/ali.saim.7923"> <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
-                    <vr>
-                    <a href="https://twitter.com/L_Saim"> <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-                    <vr>
-                    <a href="https://www.linkedin.com/in/ali-saim-2a5091a4?trk=hp-identity-name"> <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                <!-- Tried to implement google maps -->
+                <script src="http://maps.google.com/maps/api/js"></script>
+                <script src="gmaps.js"></script>
+                <style type="text/css">
+                    #map {
+                    width: 400px;
+                    height: 400px;
+                    }
+                </style>
+                
+                <div id="map"></div>
+                <script>
+                    var map = new GMaps({
+                    el: '#map',
+                    lat: -12.043333,
+                    lng: -77.028333
+                    });
+                </script>
+                
+
 
                     </div>
 
