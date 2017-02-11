@@ -1,3 +1,16 @@
+/* COMP308 - Emerging Technology Assignment One
+ * File: index.js
+ * Student: Ali Saim (300759480)
+ * Date Created: Feb 5th 2017
+ * Date Last Modified: Feb 10th 2017
+ * Description: index.js is used to route to different pages/tabs
+ * Revision History:
+ *  Feb 05, 2017:
+ * 					Created index.js
+ * Feb 10, 2017
+ *          Added internal documentation
+ */
+
 let express = require('express');
 let router = express.Router();
 

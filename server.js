@@ -1,5 +1,18 @@
 #!/usr/bin/env node
 
+
+/* COMP308 - Emerging Technology Assignment One
+ * File: server.js
+ * Student: Ali Saim (300759480)
+ * Date Created: Feb 5th 2017
+ * Date Last Modified: Feb 10th 2017
+ * Description: server.js is a class used to connect to the server
+ * Revision History:
+ *  Feb 05, 2017:
+ * 					Created server.js
+ * Feb 10, 2017
+ *          Added internal documentation
+ */
 /**
  * Module dependencies.
  */
